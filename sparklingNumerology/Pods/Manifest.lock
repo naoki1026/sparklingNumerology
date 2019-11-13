@@ -1,0 +1,40 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Pastel (0.6.0)
+  - ProgressHUD (2.60)
+  - Realm (4.0.0):
+    - Realm/Headers (= 4.0.0)
+  - Realm/Headers (4.0.0)
+  - RealmSwift (4.0.0):
+    - Realm (= 4.0.0)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - Pastel
+  - ProgressHUD
+  - RealmSwift
+  - SwipeCellKit
+
+SPEC REPOS:
+  trunk:
+    - ChameleonFramework
+    - Pastel
+    - ProgressHUD
+    - Realm
+    - RealmSwift
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  Realm: 0c5b8f398daeec5b29824e41c453ff9e126e31d8
+  RealmSwift: 02e1f604f7091ec535145055764ca53efa8cdc92
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: 3f351a415dca7ecfb69c2dd3543db9c07a91e164
+
+COCOAPODS: 1.8.4

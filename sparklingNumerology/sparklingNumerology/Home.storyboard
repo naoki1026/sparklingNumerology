@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8hj-hB-a9s">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ホーム-->
+        <scene sceneID="Ntx-ic-J0P">
+            <objects>
+                <viewController id="uWn-oO-6br" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pCF-EZ-TWX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Newmerology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A23-32-60h">
+                                <rect key="frame" x="95" y="308" width="185" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KTc-xB-uH0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ホーム" id="ZbI-zg-gN6">
+                        <barButtonItem key="leftBarButtonItem" title="設定" id="Kzm-TF-Ymj">
+                            <color key="tintColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="ボタン" id="EZw-bB-mvW">
+                            <color key="tintColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="Hxs-Hu-kaw" kind="show" id="mQ8-ZM-xvK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGF-IP-zq9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253.59999999999999" y="-57.121439280359823"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oj0-2N-ma4">
+            <objects>
+                <viewController id="TdS-w7-Upr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZJU-qQ-lGV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uKy-0R-gn0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="22E-RC-X6x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bp-kZ-Onp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="715"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TAE-vt-K5k">
+            <objects>
+                <viewController id="Hxs-Hu-kaw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="naQ-8L-nc9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鑑定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN7-fP-lU6">
+                                <rect key="frame" x="12.5" y="84" width="350" height="40"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B0s-a9-UHA"/>
+                                    <constraint firstAttribute="width" constant="350" id="Yua-h7-bhy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="生年月日を入力" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVa-QJ-7nF">
+                                <rect key="frame" x="22.5" y="144" width="330" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1a5-zn-6LM"/>
+                                    <constraint firstAttribute="width" constant="330" id="81R-7l-GJo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="名前を入力" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AIs-vK-Gdk">
+                                <rect key="frame" x="22.5" y="204" width="330" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="3hL-pQ-pNr"/>
+                                    <constraint firstAttribute="height" constant="40" id="Nvb-Qy-iR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8x-BR-Ms2">
+                                <rect key="frame" x="22.5" y="284" width="330" height="40"/>
+                                <color key="backgroundColor" red="0.58431372549019611" green="0.80000000000000004" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Z1x-FA-s6O"/>
+                                    <constraint firstAttribute="width" constant="330" id="Z2Y-c7-myQ"/>
+                                </constraints>
+                                <state key="normal" title="鑑定結果を確認">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AIs-vK-Gdk" firstAttribute="top" secondItem="iVa-QJ-7nF" secondAttribute="bottom" constant="20" id="CxG-VX-L0B"/>
+                            <constraint firstItem="Q8x-BR-Ms2" firstAttribute="centerX" secondItem="naQ-8L-nc9" secondAttribute="centerX" id="MXh-w4-JDa"/>
+                            <constraint firstItem="iVa-QJ-7nF" firstAttribute="top" secondItem="pN7-fP-lU6" secondAttribute="bottom" constant="20" id="QeI-XD-Mq4"/>
+                            <constraint firstItem="pN7-fP-lU6" firstAttribute="top" secondItem="t0t-64-IyX" secondAttribute="top" constant="40" id="ZqG-yQ-jwP"/>
+                            <constraint firstItem="AIs-vK-Gdk" firstAttribute="centerX" secondItem="naQ-8L-nc9" secondAttribute="centerX" id="auq-Qs-lLD"/>
+                            <constraint firstItem="pN7-fP-lU6" firstAttribute="centerX" secondItem="naQ-8L-nc9" secondAttribute="centerX" id="lEc-ez-NhQ"/>
+                            <constraint firstItem="iVa-QJ-7nF" firstAttribute="centerX" secondItem="naQ-8L-nc9" secondAttribute="centerX" id="rvo-Z1-FZP"/>
+                            <constraint firstItem="Q8x-BR-Ms2" firstAttribute="top" secondItem="AIs-vK-Gdk" secondAttribute="bottom" constant="40" id="u8S-nZ-obb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="t0t-64-IyX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V7x-B9-HR8"/>
+                    <connections>
+                        <segue destination="TdS-w7-Upr" kind="show" id="aS8-Ml-J40"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1KI-24-J4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="-57.121439280359823"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="43X-TO-HZZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8hj-hB-a9s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="suD-9R-Lyl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                            <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uWn-oO-6br" kind="relationship" relationship="rootViewController" id="XQx-uy-qcX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TsL-mz-fBF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-466.39999999999998" y="-57.121439280359823"/>
+        </scene>
+    </scenes>
+</document>

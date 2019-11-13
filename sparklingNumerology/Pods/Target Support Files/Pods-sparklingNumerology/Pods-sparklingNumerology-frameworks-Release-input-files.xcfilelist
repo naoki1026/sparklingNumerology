@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-sparklingNumerology/Pods-sparklingNumerology-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework
+${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework
